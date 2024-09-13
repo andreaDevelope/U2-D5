@@ -14,9 +14,9 @@ body {
 /* header */
 
 header {
-  background-color: orange;
+  background-color: #ffc017;
   padding: 1rem 4rem;
-  border-bottom: 2px solid rgb(15, 15, 15);
+  border-bottom: 2px solid #191919;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -24,10 +24,12 @@ header {
   left: 0;
   right: 0;
   z-index: 1;
+  transition: background-color 300ms ease;
 }
 
 #scroll {
   background-color: white;
+  transition: background-color 300ms ease;
 }
 
 nav {
@@ -39,17 +41,18 @@ nav > a {
 }
 
 nav > a:nth-child(5) {
-  background-color: rgb(15, 15, 15);
-  color: rgb(248, 240, 240);
+  background-color: #191919;
+  color: #e6e7e6;
   border-radius: 3rem;
-  padding: 3px 6px;
+  padding: 5px 8px;
   display: inline-block;
   max-width: 96px;
   text-align: center;
 }
 
 #nav-button2 {
-  background-color: green;
+  background-color: #1a8917;
+  transition: background-color 300ms ease;
 }
 
 a {
@@ -66,7 +69,7 @@ main {
 .hero {
   display: flex;
   justify-content: space-between;
-  background-color: orange;
+  background-color: #ffc017;
   max-height: 40vh;
 }
 
@@ -99,8 +102,8 @@ h1 {
 
 .button-hero {
   margin-block: 1.5rem;
-  background-color: rgb(15, 15, 15);
-  color: rgb(248, 240, 240);
+  background-color: #191919;
+  color: #e6e7e6;
   border-radius: 3rem;
   border: none;
   padding: 0.8rem 3rem;
@@ -230,7 +233,7 @@ h6 {
 .aside-content-button {
   border-radius: 10px;
   border: none;
-  background-color: rgb(248, 240, 240);
+  background-color: #e6e7e6;
   padding: 8px;
   font-size: 0.7rem;
   cursor: pointer;
@@ -311,7 +314,7 @@ h6 {
 }
 
 .second-aside > div > button {
-  background-color: rgb(248, 240, 240);
+  background-color: #e6e7e6;
   border: none;
   padding: 10px 1rem;
   cursor: pointer;
