@@ -334,3 +334,67 @@ li > button {
   background-color: white;
   cursor: pointer;
 }
+
+/* tablet */
+@media screen and (max-width: 991px) {
+  header {
+    padding-inline: 0;
+  }
+
+  .hero {
+    min-height: 420px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    width: 344px;
+    font-family: "Spectral", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 8rem;
+  }
+
+  .font-size-p-h1 {
+    width: 344px;
+  }
+
+  .button-hero {
+    width: 173px;
+  }
+
+  .top-results {
+    padding-inline: 0;
+  }
+
+  .top-results > p {
+    margin-left: 2.3rem;
+  }
+
+  .container-cards-main {
+    justify-content: space-around;
+  }
+
+  .flex {
+    width: 40%;
+  }
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .td {
+    margin-left: 1rem;
+    flex-grow: 1;
+  }
+
+  .first-second-aside {
+    flex-grow: 1;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    order: -1;
+  }
+
+  .second {
+    display: none;
+  }
+}
