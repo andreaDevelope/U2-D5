@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="medium-search" />
+    <!-- font roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font spectral -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link css -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/imgs/svg/logo.svg" alt="logo.svg" />
+
+      <nav>
+        <a href="#">Our Story</a>
+        <a href="#">Membership</a>
+        <a href="#">Write</a>
+        <a href="#">Sign in</a>
+        <a href="#">Get started</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Stay curios.</h1>
+          <p class="font-size-p-h1">
+            Discover stories, thinking, and expertise <br />
+            from writers on any topic.
+          </p>
+
+          <button class="button-hero">Start reading</button>
+        </div>
+        <div><img src="./assets/imgs/index.svg" alt="img.svg" /></div>
+      </section>
+
+      <section class="top-results">
+        <p>
+          <span><img src="./assets/imgs/svg/trending.svg" alt="img-trading.svg" /></span>
+          TREDING ON MEDUM
+        </p>
+        <div class="container-cards-main">
+          <div class="flex">
+            <div class="numb">
+              <span>01</span>
+            </div>
+            <div class="numb-content">
+              <p><img style="border-radius: 50%" src="./assets/imgs/image01.jpeg" alt="img.jpeg" /> Tom Cooper</p>
+              <h5>Ukraine War, 23 October 2022</h5>
+              <p>Oct23 - 5min read</p>
+            </div>
+          </div>
+
+          <div class="flex">
+            <div class="numb">
+              <span>02</span>
+            </div>
+            <div class="numb-content">
+              <p><img src="./assets/imgs/image02.png" alt="img.jpeg" />Arthur Hayes in Entrepreneur's Handbook</p>
+              <h5>Comeback</h5>
+              <p>Oct26 - 24min read</p>
+            </div>
+          </div>
+
+          <div class="flex">
+            <div class="numb">
+              <span>03</span>
+            </div>
+            <div class="numb-content">
+              <p><img src="./assets/imgs/image03.jpeg" alt="img.jpeg" />Erin A Ross in Slackjaw</p>
+              <h5>
+                How I Learned to Love My Breasts Even <br />
+                Though One Is A Horcrux For Voldemort
+              </h5>
+              <p>Oct26 - 2min read</p>
+            </div>
+          </div>
+
+          <div class="flex">
+            <div class="numb">
+              <span>04</span>
+            </div>
+            <div class="numb-content">
+              <p><img src="./assets/imgs/image04.png" alt="img.jpeg" />Frank Mastropolo in The Riff</p>
+              <h5>
+                The Night Paul McCartney Donned a <br />
+                Disguise at Fillmore East
+              </h5>
+              <p>Oct22 - 3min read <img src="./assets/imgs/svg/star.svg" alt="star.svg" /></p>
+            </div>
+          </div>
+
+          <div class="flex">
+            <div class="numb">
+              <span>05</span>
+            </div>
+            <div class="numb-content">
+              <p><img src="./assets/imgs/image05.jpeg" alt="img.jpeg" />Frank Andrade in Towards Data Science</p>
+              <h5>
+                5 Python Projects to Automate Your Life: <br />
+                From Beginner to Advanced
+              </h5>
+              <p>Oct13 - 6min read <img src="./assets/imgs/svg/star.svg" alt="star.svg" /></p>
+            </div>
+          </div>
+
+          <div class="flex">
+            <div class="numb">
+              <span>06</span>
+            </div>
+            <div class="numb-content">
+              <p><img src="./assets/imgs/image06.png" alt="img.jpeg" />Wesley Smits in JavaScript in Plain English</p>
+              <h5>
+                How To Make Visual Studio Code Look <br />
+                Amazing
+              </h5>
+              <p>Oct20 - 7min read <img src="./assets/imgs/svg/star.svg" alt="star.svg" /></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <hr />
+
+    <aside>
+      <div class="container-aside">
+        <div class="row">
+          <div class="td">
+            <div class="left">
+              <p>
+                <span><img src="./assets/imgs/image07.jpeg" alt="img.jpeg" /></span>Robert Roy Britt
+              </p>
+              <h6>How Old is Old?</h6>
+              <p>
+                What we consider “old” changes dramatically with age, and our <br />
+                perspectives can be predictive of how well we age <br />
+              </p>
+              <p>
+                Oct 27 · 5 min read · <button class="aside-content-button">Aging</button>
+                <span class="star-aside"><img src="./assets/imgs/svg/star.svg" alt="" /></span>
+              </p>
+              <img class="icon-book" src="./assets/imgs/svg/bookmark.svg" alt="icone-book" />
+            </div>
+            <aside class="first-aside"></aside>
+          </div>
+          <aside class="second-aside first-second-aside">
+            <h6>Discover more of what matters to you</h6>
+            <div>
+              <button>Programming</button> <button>Data Science</button> <button>Technology</button> <button>Self Improvement</button> <button>Writing</button>
+              <button>Relationships</button> <button>Machine Learning</button> <button>Productivity</button> <button>Politics</button>
+            </div>
+          </aside>
+        </div>
+
+        <div class="row">
+          <div class="td">
+            <div class="left">
+              <p>
+                <span><img src="./assets/imgs/image09.jpeg" alt="img.jpeg" /></span>Taru Anniina Liikanen
+              </p>
+              <h6>Is Taylor Swift Allowed to Speak About Fat?</h6>
+              <p>Can you speak about your trauma if you don't look traumatized?</p>
+              <p>
+                Oct 24 · 6 min read · <button class="aside-content-button">Health</button>
+                <span class="star-aside"><img src="./assets/imgs/svg/star.svg" alt="" /></span>
+              </p>
+              <img class="icon-book" src="./assets/imgs/svg/bookmark.svg" alt="icone-book" />
+            </div>
+            <aside class="first-aside"></aside>
+          </div>
+          <aside class="second-aside">
+            <ul>
+              <li><button>Help</button></li>
+              <li><button>Status</button></li>
+              <li><button>Writers</button></li>
+              <li><button>Blog</button></li>
+              <li><button>Careers</button></li>
+              <li><button>Privacy</button></li>
+              <li><button>Terms</button></li>
+              <li><button>About</button></li>
+              <li><button>Knowable</button></li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="row">
+          <div class="td">
+            <div class="left">
+              <p>
+                <span><img src="./assets/imgs/image11.jpeg" alt="img.jpeg" /></span>David Rodenas, Ph. D.
+              </p>
+              <h6>Don’t Screw Up, You Will Be Found Guilty</h6>
+              <p>Software Engineer, yours is the right to produce high-quality work <br />at all times, also the liability.</p>
+              <p>
+                Oct 15 · 5 min read · <button class="aside-content-button">Software Engineering </button>
+                <span class="star-aside"><img src="./assets/imgs/svg/star.svg" alt="" /></span>
+              </p>
+              <img class="icon-book" src="./assets/imgs/svg/bookmark.svg" alt="icone-book" />
+            </div>
+            <aside class="first-aside"></aside>
+          </div>
+          <aside class="second-aside"></aside>
+        </div>
+
+        <div class="row">
+          <div class="td">
+            <div class="left">
+              <p>
+                <span><img src="./assets/imgs/image13.png" alt="img.jpeg" /></span>Microsoft Design
+              </p>
+              <h6>Leave No Trace</h6>
+              <p>
+                How product designers can break from the status quo and help our <br />
+                planet
+              </p>
+              <p>
+                Oct 25 · 11 min read · <button class="aside-content-button">Sustainability</button>
+                <span class="star-aside"><img src="./assets/imgs/svg/star.svg" alt="" /></span>
+              </p>
+              <img class="icon-book" src="./assets/imgs/svg/bookmark.svg" alt="icone-book" />
+            </div>
+            <aside class="first-aside"></aside>
+          </div>
+          <aside class="second-aside"></aside>
+        </div>
+
+        <div class="row">
+          <div class="td">
+            <div class="left">
+              <p>
+                <span><img src="./assets/imgs/image15.jpeg" alt="img.jpeg" /></span>Scott H. Young
+              </p>
+              <h6>
+                Variability, Not Repetition, is the Key to <br />
+                Mastery
+              </h6>
+              <p>
+                Bruce Lee is reported to have said, “I fear not the man who has <br />
+                practiced 10,000 kicks once, but the man who has practiced one kick 10,000...
+              </p>
+              <p>
+                Oct 26 · 7 min read · <button class="aside-content-button">Learning</button>
+                <span class="star-aside"><img src="./assets/imgs/svg/star.svg" alt="" /></span>
+              </p>
+              <img class="icon-book" src="./assets/imgs/svg/bookmark.svg" alt="icone-book" />
+            </div>
+            <aside class="first-aside"></aside>
+          </div>
+          <aside class="second-aside"></aside>
+        </div>
+
+        <div class="row">
+          <div class="td">
+            <div class="left">
+              <p>
+                <span><img id="less-radius" src="./assets/imgs/image17.png" alt="img.jpeg" /></span>Paul A. DeStefanoin Human Parts
+              </p>
+              <h6>What I Overheard as an Escape Room Actor?</h6>
+              <p>
+                Lock a group of people in a room and you’ll witness some <br />
+                surprising confessions
+              </p>
+              <p>
+                Jan 18 · 6 min read · <button class="aside-content-button">Experiences</button>
+                <span class="star-aside"><img src="./assets/imgs/svg/star.svg" alt="" /></span>
+              </p>
+              <img class="icon-book" src="./assets/imgs/svg/bookmark.svg" alt="icone-book" />
+            </div>
+            <aside class="first-aside"></aside>
+          </div>
+          <aside class="second-aside"></aside>
+        </div>
+
+        <div class="row">
+          <div class="td">
+            <div class="left">
+              <p>
+                <span><img src="./assets/imgs/image19.jpeg" alt="img.jpeg" /></span>Kim Scott
+              </p>
+              <h6>
+                6 Steps for Setting Measurable Goals to Avoid <br />
+                “Productivity Paranoia”
+              </h6>
+              <p>
+                With more people working in remote and hybrid environments than <br />
+                ever before, company, team and individual goals must be explicit and…
+              </p>
+              <p>
+                Oct 25 · 10 min read · <button class="aside-content-button">Productivity</button>
+                <span class="star-aside"><img src="./assets/imgs/svg/star.svg" alt="" /></span>
+              </p>
+              <img class="icon-book" src="./assets/imgs/svg/bookmark.svg" alt="icone-book" />
+            </div>
+            <aside class="first-aside"></aside>
+          </div>
+          <aside class="second-aside"></aside>
+        </div>
+      </div>
+    </aside>
+  </body>
+</html>
