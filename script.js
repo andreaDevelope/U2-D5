@@ -2,14 +2,32 @@ const header = document.querySelector("header");
 const hero = document.querySelector(".hero");
 const buttonheader = document.querySelector(".nav-button");
 
-function handleScroll() {
+function haderScroll() {
   if (window.scrollY > hero.offsetHeight) {
-    header.id = "scroll";
-    buttonheader.id = "nav-button2";
+    header.setAttribute("id", "scroll");
+    buttonheader.setAttribute("id", "nav-button2");
   } else {
-    header.id = "";
-    buttonheader.id = "";
+    header.removeAttribute("id");
+    buttonheader.removeAttribute("id");
   }
 }
 
-window.addEventListener("scroll", handleScroll);
+document.addEventListener("DOMContentLoaded", () => {
+  const textGroup = document.getElementById("textGroup");
+
+  function animationM() {
+    if (textGroup.classList.contains("charat-entra")) {
+      textGroup.classList.remove("charat-entra");
+      textGroup.classList.add("charat-esce");
+    } else {
+      textGroup.classList.remove("charat-esce");
+      textGroup.classList.add("charat-entra");
+    }
+
+    setTimeout(toggleAnimation, Math.random() * 1000 + 1000);
+  }
+
+  animationM();
+});
+
+window.addEventListener("scroll", haderScroll);
